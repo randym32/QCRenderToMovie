@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D949068187CBFE20031478E /* BWQCRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D949067187CBFE20031478E /* BWQCRender.m */; };
+		3D949072187CE3840031478E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D949071187CE3840031478E /* AVFoundation.framework */; };
+		3D949077187D6E640031478E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D949076187D6E640031478E /* CoreMedia.framework */; };
+		3D949079187E562D0031478E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D949078187E562D0031478E /* OpenGL.framework */; };
+		3D94907B187E5C210031478E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D94907A187E5C210031478E /* CoreVideo.framework */; };
+		849F787008302C9C00AA1F44 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849F786E08302C9C00AA1F44 /* Quartz.framework */; };
+		849F793E08302CAD00AA1F44 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849F793D08302CAD00AA1F44 /* AppKit.framework */; };
+		849F798D08302CCF00AA1F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849F798C08302CCF00AA1F44 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D949066187CBFE20031478E /* BWQCRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWQCRender.h; sourceTree = "<group>"; };
+		3D949067187CBFE20031478E /* BWQCRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWQCRender.m; sourceTree = "<group>"; };
+		3D949071187CE3840031478E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = /System/Library/Frameworks/AVFoundation.framework; sourceTree = "<absolute>"; };
+		3D949076187D6E640031478E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = /System/Library/Frameworks/CoreMedia.framework; sourceTree = "<absolute>"; };
+		3D949078187E562D0031478E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		3D94907A187E5C210031478E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		849F786E08302C9C00AA1F44 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		849F793D08302CAD00AA1F44 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		849F798C08302CCF00AA1F44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* QuartzComposerOffline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuartzComposerOffline; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D949077187D6E640031478E /* CoreMedia.framework in Frameworks */,
+				3D949072187CE3840031478E /* AVFoundation.framework in Frameworks */,
+				849F787008302C9C00AA1F44 /* Quartz.framework in Frameworks */,
+				3D949079187E562D0031478E /* OpenGL.framework in Frameworks */,
+				849F793E08302CAD00AA1F44 /* AppKit.framework in Frameworks */,
+				3D94907B187E5C210031478E /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* QuartzComposerOffline */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				08FB779DFE84155DC02AAC07 /* Frameworks */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = QuartzComposerOffline;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				849F798C08302CCF00AA1F44 /* main.m */,
+				3D949066187CBFE20031478E /* BWQCRender.h */,
+				3D949067187CBFE20031478E /* BWQCRender.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D94907A187E5C210031478E /* CoreVideo.framework */,
+				3D949078187E562D0031478E /* OpenGL.framework */,
+				3D949076187D6E640031478E /* CoreMedia.framework */,
+				3D949071187CE3840031478E /* AVFoundation.framework */,
+				849F793D08302CAD00AA1F44 /* AppKit.framework */,
+				849F786E08302C9C00AA1F44 /* Quartz.framework */,
+			);
+			name = Frameworks;
+			path = /Users/randym/Downloads/Offline;
+			sourceTree = "<absolute>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* QuartzComposerOffline */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* QuartzComposerOffline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41834C00A253C1B00870CCB /* Build configuration list for PBXNativeTarget "QuartzComposerOffline" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzComposerOffline;
+			productInstallPath = "$(HOME)/bin";
+			productName = QuartzComposerOffline;
+			productReference = 8DD76FA10486AA7600D96B5E /* QuartzComposerOffline */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = A41834C40A253C1B00870CCB /* Build configuration list for PBXProject "QuartzComposerOffline" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* QuartzComposerOffline */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* QuartzComposerOffline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D949068187CBFE20031478E /* BWQCRender.m in Sources */,
+				849F798D08302CCF00AA1F44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A41834C10A253C1B00870CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = QuartzComposerOffline;
+				SKIP_INSTALL = YES;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		A41834C20A253C1B00870CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = QuartzComposerOffline;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A41834C50A253C1B00870CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.8;
+			};
+			name = Debug;
+		};
+		A41834C60A253C1B00870CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.8;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A41834C00A253C1B00870CCB /* Build configuration list for PBXNativeTarget "QuartzComposerOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41834C10A253C1B00870CCB /* Debug */,
+				A41834C20A253C1B00870CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41834C40A253C1B00870CCB /* Build configuration list for PBXProject "QuartzComposerOffline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41834C50A253C1B00870CCB /* Debug */,
+				A41834C60A253C1B00870CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
